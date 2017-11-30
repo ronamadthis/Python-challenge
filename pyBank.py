@@ -3,7 +3,7 @@ import csv
 
 date =[]
 revenue=[]
-header=[]
+header=[]  
 # Read data_1 file and convert two columns into two lists without the header
 with open('budget_data_1.csv', encoding="ascii", errors="surrogateescape") as csvfile:
 						csv_reader = csv.reader(csvfile)
